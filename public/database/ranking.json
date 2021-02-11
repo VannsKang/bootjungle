@@ -1,0 +1,82 @@
+[
+  {
+    "title": "평점별",
+    "items": [
+      {
+        "id": 1,
+        "name": "wecode",
+        "kor_name": "위코드",
+        "logo_url": "http://localhost:3000/images/wecode.jpg",
+        "score": 5.0
+      },
+      {
+        "id": 2,
+        "name": "wecode",
+        "kor_name": "위코드",
+        "logo_url": "http://localhost:3000/images/wecode.jpg",
+        "score": 4.5
+      },
+      {
+        "id": 3,
+        "name": "wecode",
+        "kor_name": "위코드",
+        "logo_url": "http://localhost:3000/images/wecode.jpg",
+        "score": 4.0
+      },
+      {
+        "id": 4,
+        "name": "wecode",
+        "kor_name": "위코드",
+        "logo_url": "http://localhost:3000/images/wecode.jpg",
+        "score": 3.5
+      },
+      {
+        "id": 5,
+        "name": "wecode",
+        "kor_name": "위코드",
+        "logo_url": "http://localhost:3000/images/wecode.jpg",
+        "score": 3.0
+      }
+    ]
+  },
+  {
+    "title": "비용별",
+    "items": [
+      {
+        "id": 1,
+        "name": "wecode",
+        "kor_name": "위코드",
+        "logo_url": "http://localhost:3000/images/wecode.jpg",
+        "score": 5.0
+      },
+      {
+        "id": 2,
+        "name": "wecode",
+        "kor_name": "위코드",
+        "logo_url": "http://localhost:3000/images/wecode.jpg",
+        "score": 4.5
+      },
+      {
+        "id": 3,
+        "name": "wecode",
+        "kor_name": "위코드",
+        "logo_url": "http://localhost:3000/images/wecode.jpg",
+        "score": 4.0
+      },
+      {
+        "id": 4,
+        "name": "wecode",
+        "kor_name": "위코드",
+        "logo_url": "http://localhost:3000/images/wecode.jpg",
+        "score": 3.5
+      },
+      {
+        "id": 5,
+        "name": "wecode",
+        "kor_name": "위코드",
+        "logo_url": "http://localhost:3000/images/wecode.jpg",
+        "score": 3.0
+      }
+    ]
+  }
+]
