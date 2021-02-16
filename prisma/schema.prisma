@@ -1,0 +1,25 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model boot_camps {
+  id             Int     @id @default(autoincrement())
+  name           String?
+  kor_name       String?
+  logo_url       String?
+  score          Float?
+  intro          String?
+  home_page_url  String?
+  operating_time String?
+  phone_number   String?
+  employees      String?
+  students       String?
+  address        String?
+  latitude       Float?
+  longitude      Float?
+}
