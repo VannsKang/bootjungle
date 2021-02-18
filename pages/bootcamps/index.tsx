@@ -4,7 +4,7 @@ import Head from 'next/head';
 import { useDispatch } from 'react-redux';
 
 // LINK type, styles
-import List from '@/components/Bootcamp/List';
+import { List } from '@/components/Bootcamp';
 import { fetchBootcamp } from '@/store/actions';
 import s from '@/styles/Bootcamps';
 

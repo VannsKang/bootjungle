@@ -1,5 +1,4 @@
-import { FC } from 'react';
-import { GetStaticPaths, GetStaticProps } from 'next';
+import { GetStaticPaths, GetStaticProps, InferGetStaticPropsType } from 'next';
 import Head from 'next/head';
 import axios from 'axios';
 
@@ -41,7 +40,9 @@ export const getStaticProps: GetStaticProps = async (context) => {
   };
 };
 
-const Details: FC<BootcampType.Bootcamp> = ({ bootcamp }) => {
+const Details = ({
+  bootcamp,
+}: InferGetStaticPropsType<typeof getStaticProps>) => {
   return (
     <>
       <Head>

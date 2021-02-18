@@ -1,11 +1,10 @@
 import { FC } from 'react';
 
 // LINK style/type
-import { BootcampProps } from '@/template';
 import s from '@/styles/Details';
+import { BootcampType } from '@/template';
 
-const Headers: FC<BootcampProps> = ({ bootcamp }) => {
-  console.log(bootcamp, '!@??');
+const Headers: FC<BootcampType.BootcampProps> = ({ bootcamp }) => {
   return (
     <s.Headers>
       <section>

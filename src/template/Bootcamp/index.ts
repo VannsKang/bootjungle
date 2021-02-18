@@ -8,7 +8,7 @@ export declare module BootcampType {
     score: number;
     comments_number: number;
     intro: string;
-    detail_infos: DetailInfos;
+    detail_infos: DetailInfos[];
     location: Location;
   }
   export interface DetailInfos {
@@ -25,5 +25,9 @@ export declare module BootcampType {
     bootcamps: Bootcamp[];
     isLoading: boolean;
     error: string | null;
+  }
+
+  export interface BootcampProps {
+    bootcamp: Bootcamp;
   }
 }
