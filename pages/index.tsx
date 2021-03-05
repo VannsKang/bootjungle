@@ -45,13 +45,22 @@ const Home = ({
         <Carousel />
         <h1>2020년 부트캠프 순위</h1>
         <Rankings />
-        <Link href='/bootcamps'>
-          <a>
-            <Button variant='contained' color='primary'>
-              부트캠프 전체보기
-            </Button>
-          </a>
-        </Link>
+        <s.ListSection>
+          <Link href='/bootcamps'>
+            <a>
+              <Button variant='contained' color='primary'>
+                부트캠프 전체보기
+              </Button>
+            </a>
+          </Link>
+          <Link href='/bootcamps/courses'>
+            <a>
+              <Button variant='contained' color='primary'>
+                부트캠프 코스 전체보기
+              </Button>
+            </a>
+          </Link>
+        </s.ListSection>
       </s.MainContent>
     </>
   );

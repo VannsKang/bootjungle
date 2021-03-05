@@ -114,9 +114,17 @@ const MainContent = styled.main`
   }
 `;
 
+const ListSection = styled.div`
+  ${Mixin.flexSet('center', 'center')}
+  >a {
+    margin: 0 10px;
+  }
+`;
+
 export default {
   MainContent,
   Carousel,
   Title,
   Rankings,
+  ListSection,
 };

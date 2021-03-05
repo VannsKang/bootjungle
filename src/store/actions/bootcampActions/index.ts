@@ -1,7 +1,7 @@
 import { PayloadAction } from '@reduxjs/toolkit';
 import { BootcampType } from '@/template';
 import { AppThunk } from '@/store';
-import { apiList } from '@/api';
+import { apiBootcamp } from '@/api';
 import {
   getBootcampFailed,
   getBootcampStart,
@@ -25,7 +25,7 @@ const loadingFailed = (
 export const fetchBootcamp = (api: string): AppThunk => async (dispatch) => {
   try {
     dispatch(getBootcampStart());
-    const bootcamps = await apiList.getBootcampItems(api);
+    const bootcamps = await apiBootcamp.getBootcampItems(api);
     dispatch(getBootcampSuccesss(bootcamps));
   } catch (error) {
     dispatch(getBootcampFailed(error.toString()));

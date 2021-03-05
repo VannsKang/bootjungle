@@ -39,7 +39,7 @@ $ npm run test
 
 ## 4. 프로젝트 모듈 소개
 
-```console
+```
 .
 ├── pages/
 │   ├── api
