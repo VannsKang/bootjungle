@@ -1,383 +1,422 @@
-[
-  {
-    "id": 1,
-    "name": "wecode",
-    "kor_name": "위코드",
-    "logo_url": "http://localhost:3000/images/wecode.jpg",
-    "score": 4.5,
-    "comments_number": 138,
-    "intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
-    "detail_infos": [
-      {
-        "title": "홈페이지",
-        "desc": "http://wecode.co.kr"
-      },
-      {
-        "title": "운영시간",
-        "desc": "평일 10AM - 7PM"
-      },
-      {
-        "title": "연락처",
-        "desc": "010-3470-4553"
-      },
-      {
-        "title": "직원수",
-        "desc": "5 명"
-      },
-      {
-        "title": "학생수 (기수별)",
-        "desc": "40~50 명"
-      }
-    ],
-    "location": {
-      "address": "서울특별시 강남구 테헤란로 427, 위워크타워",
-      "cordinate": {
-        "x": 127.05366554078688,
-        "y": 37.50631175666157
-      }
-    }
-  },
+{
+	"filters": [
+		{
+			"id": 1,
+			"title": "리뷰 평점별",
+			"items": [
+				{ "title": "전체", "value": 0 },
+				{ "title": "5점", "value": 5 },
+				{ "title": "4점", "value": 4 },
+				{ "title": "3점", "value": 3 },
+				{ "title": "2점", "value": 2 },
+				{ "title": "1점", "value": 1 }
+			]
+		},
+		{
+			"id": 2,
+			"title": "태그별",
+			"items": [
+				{ "title": "전체", "value": "all" },
+				{ "title": "프론트앤드", "value": "frontend" },
+				{ "title": "백앤드", "value": "backend" },
+				{ "title": "온라인", "value": "online" },
+				{ "title": "오프라인", "value": "offline" },
+				{ "title": "3개월", "value": "threeMonth" },
+				{ "title": "6개월", "value": "sixMonth" }
+			]
+		}
+	],
+	"bootcamps": [
+		{
+			"id": 1,
+			"name": "wecode",
+			"kor_name": "위코드",
+			"logo_url": "http://localhost:3000/images/wecode.jpg",
+			"score": 4.5,
+			"comments_number": 138,
+			"intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
+			"tags": ["6개월", "백앤드", "오프라인", "강남", "인턴쉽 지원"],
+			"detail_infos": [
+				{
+					"title": "홈페이지",
+					"desc": "http://wecode.co.kr"
+				},
+				{
+					"title": "운영시간",
+					"desc": "평일 10AM - 7PM"
+				},
+				{
+					"title": "연락처",
+					"desc": "010-3470-4553"
+				},
+				{
+					"title": "직원수",
+					"desc": "5 명"
+				},
+				{
+					"title": "학생수 (기수별)",
+					"desc": "40~50 명"
+				}
+			],
+			"location": {
+				"address": "서울특별시 강남구 테헤란로 427, 위워크타워",
+				"cordinate": {
+					"x": 127.05366554078688,
+					"y": 37.50631175666157
+				}
+			}
+		},
 
-  {
-    "id": 2,
-    "name": "wecode",
-    "kor_name": "위코드",
-    "logo_url": "http://localhost:3000/images/wecode.jpg",
-    "score": 4.5,
-    "comments_number": 138,
-    "intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
-    "detail_infos": [
-      {
-        "title": "홈페이지",
-        "desc": "http://wecode.co.kr"
-      },
-      {
-        "title": "운영시간",
-        "desc": "평일 10AM - 7PM"
-      },
-      {
-        "title": "연락처",
-        "desc": "010-3470-4553"
-      },
-      {
-        "title": "직원수",
-        "desc": "5 명"
-      },
-      {
-        "title": "학생수 (기수별)",
-        "desc": "40~50 명"
-      }
-    ],
-    "location": {
-      "address": "서울특별시 강남구 테헤란로 427, 위워크타워",
-      "cordinate": {
-        "x": 127.05366554078688,
-        "y": 37.50631175666157
-      }
-    }
-  },
-  {
-    "id": 3,
-    "name": "wecode",
-    "kor_name": "위코드",
-    "logo_url": "http://localhost:3000/images/wecode.jpg",
-    "score": 4.5,
-    "comments_number": 138,
-    "intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
-    "detail_infos": [
-      {
-        "title": "홈페이지",
-        "desc": "http://wecode.co.kr"
-      },
-      {
-        "title": "운영시간",
-        "desc": "평일 10AM - 7PM"
-      },
-      {
-        "title": "연락처",
-        "desc": "010-3470-4553"
-      },
-      {
-        "title": "직원수",
-        "desc": "5 명"
-      },
-      {
-        "title": "학생수 (기수별)",
-        "desc": "40~50 명"
-      }
-    ],
-    "location": {
-      "address": "서울특별시 강남구 테헤란로 427, 위워크타워",
-      "cordinate": {
-        "x": 127.05366554078688,
-        "y": 37.50631175666157
-      }
-    }
-  },
-  {
-    "id": 4,
-    "name": "wecode",
-    "kor_name": "위코드",
-    "logo_url": "http://localhost:3000/images/wecode.jpg",
-    "score": 4.5,
-    "comments_number": 138,
-    "intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
-    "detail_infos": [
-      {
-        "title": "홈페이지",
-        "desc": "http://wecode.co.kr"
-      },
-      {
-        "title": "운영시간",
-        "desc": "평일 10AM - 7PM"
-      },
-      {
-        "title": "연락처",
-        "desc": "010-3470-4553"
-      },
-      {
-        "title": "직원수",
-        "desc": "5 명"
-      },
-      {
-        "title": "학생수 (기수별)",
-        "desc": "40~50 명"
-      }
-    ],
-    "location": {
-      "address": "서울특별시 강남구 테헤란로 427, 위워크타워",
-      "cordinate": {
-        "x": 127.05366554078688,
-        "y": 37.50631175666157
-      }
-    }
-  },
-  {
-    "id": 5,
-    "name": "wecode",
-    "kor_name": "위코드",
-    "logo_url": "http://localhost:3000/images/wecode.jpg",
-    "score": 4.5,
-    "comments_number": 138,
-    "intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
-    "detail_infos": [
-      {
-        "title": "홈페이지",
-        "desc": "http://wecode.co.kr"
-      },
-      {
-        "title": "운영시간",
-        "desc": "평일 10AM - 7PM"
-      },
-      {
-        "title": "연락처",
-        "desc": "010-3470-4553"
-      },
-      {
-        "title": "직원수",
-        "desc": "5 명"
-      },
-      {
-        "title": "학생수 (기수별)",
-        "desc": "40~50 명"
-      }
-    ],
-    "location": {
-      "address": "서울특별시 강남구 테헤란로 427, 위워크타워",
-      "cordinate": {
-        "x": 127.05366554078688,
-        "y": 37.50631175666157
-      }
-    }
-  },
-  {
-    "id": 6,
-    "name": "wecode",
-    "kor_name": "위코드",
-    "logo_url": "http://localhost:3000/images/wecode.jpg",
-    "score": 4.5,
-    "comments_number": 138,
-    "intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
-    "detail_infos": [
-      {
-        "title": "홈페이지",
-        "desc": "http://wecode.co.kr"
-      },
-      {
-        "title": "운영시간",
-        "desc": "평일 10AM - 7PM"
-      },
-      {
-        "title": "연락처",
-        "desc": "010-3470-4553"
-      },
-      {
-        "title": "직원수",
-        "desc": "5 명"
-      },
-      {
-        "title": "학생수 (기수별)",
-        "desc": "40~50 명"
-      }
-    ],
-    "location": {
-      "address": "서울특별시 강남구 테헤란로 427, 위워크타워",
-      "cordinate": {
-        "x": 127.05366554078688,
-        "y": 37.50631175666157
-      }
-    }
-  },
-  {
-    "id": 7,
-    "name": "wecode",
-    "kor_name": "위코드",
-    "logo_url": "http://localhost:3000/images/wecode.jpg",
-    "score": 4.5,
-    "comments_number": 138,
-    "intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
-    "detail_infos": [
-      {
-        "title": "홈페이지",
-        "desc": "http://wecode.co.kr"
-      },
-      {
-        "title": "운영시간",
-        "desc": "평일 10AM - 7PM"
-      },
-      {
-        "title": "연락처",
-        "desc": "010-3470-4553"
-      },
-      {
-        "title": "직원수",
-        "desc": "5 명"
-      },
-      {
-        "title": "학생수 (기수별)",
-        "desc": "40~50 명"
-      }
-    ],
-    "location": {
-      "address": "서울특별시 강남구 테헤란로 427, 위워크타워",
-      "cordinate": {
-        "x": 127.05366554078688,
-        "y": 37.50631175666157
-      }
-    }
-  },
-  {
-    "id": 8,
-    "name": "wecode",
-    "kor_name": "위코드",
-    "logo_url": "http://localhost:3000/images/wecode.jpg",
-    "score": 4.5,
-    "comments_number": 138,
-    "intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
-    "detail_infos": [
-      {
-        "title": "홈페이지",
-        "desc": "http://wecode.co.kr"
-      },
-      {
-        "title": "운영시간",
-        "desc": "평일 10AM - 7PM"
-      },
-      {
-        "title": "연락처",
-        "desc": "010-3470-4553"
-      },
-      {
-        "title": "직원수",
-        "desc": "5 명"
-      },
-      {
-        "title": "학생수 (기수별)",
-        "desc": "40~50 명"
-      }
-    ],
-    "location": {
-      "address": "서울특별시 강남구 테헤란로 427, 위워크타워",
-      "cordinate": {
-        "x": 127.05366554078688,
-        "y": 37.50631175666157
-      }
-    }
-  },
-  {
-    "id": 9,
-    "name": "wecode",
-    "kor_name": "위코드",
-    "logo_url": "http://localhost:3000/images/wecode.jpg",
-    "score": 4.5,
-    "comments_number": 138,
-    "intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
-    "detail_infos": [
-      {
-        "title": "홈페이지",
-        "desc": "http://wecode.co.kr"
-      },
-      {
-        "title": "운영시간",
-        "desc": "평일 10AM - 7PM"
-      },
-      {
-        "title": "연락처",
-        "desc": "010-3470-4553"
-      },
-      {
-        "title": "직원수",
-        "desc": "5 명"
-      },
-      {
-        "title": "학생수 (기수별)",
-        "desc": "40~50 명"
-      }
-    ],
-    "location": {
-      "address": "서울특별시 강남구 테헤란로 427, 위워크타워",
-      "cordinate": {
-        "x": 127.05366554078688,
-        "y": 37.50631175666157
-      }
-    }
-  },
-  {
-    "id": 10,
-    "name": "wecode",
-    "kor_name": "위코드",
-    "logo_url": "http://localhost:3000/images/wecode.jpg",
-    "score": 4.5,
-    "comments_number": 138,
-    "intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
-    "detail_infos": [
-      {
-        "title": "홈페이지",
-        "desc": "http://wecode.co.kr"
-      },
-      {
-        "title": "운영시간",
-        "desc": "평일 10AM - 7PM"
-      },
-      {
-        "title": "연락처",
-        "desc": "010-3470-4553"
-      },
-      {
-        "title": "직원수",
-        "desc": "5 명"
-      },
-      {
-        "title": "학생수 (기수별)",
-        "desc": "40~50 명"
-      }
-    ],
-    "location": {
-      "address": "서울특별시 강남구 테헤란로 427, 위워크타워",
-      "cordinate": {
-        "x": 127.05366554078688,
-        "y": 37.50631175666157
-      }
-    }
-  }
-]
+		{
+			"id": 2,
+			"name": "codestates",
+			"kor_name": "코드 스테이츠",
+			"logo_url": "http://localhost:3000/images/codestates.png",
+			"score": 3.5,
+			"comments_number": 138,
+			"intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
+			"tags": ["6개월", "백앤드", "오프라인", "강남", "인턴쉽 지원"],
+			"detail_infos": [
+				{
+					"title": "홈페이지",
+					"desc": "http://wecode.co.kr"
+				},
+				{
+					"title": "운영시간",
+					"desc": "평일 10AM - 7PM"
+				},
+				{
+					"title": "연락처",
+					"desc": "010-3470-4553"
+				},
+				{
+					"title": "직원수",
+					"desc": "5 명"
+				},
+				{
+					"title": "학생수 (기수별)",
+					"desc": "40~50 명"
+				}
+			],
+			"location": {
+				"address": "서울특별시 강남구 테헤란로 427, 위워크타워",
+				"cordinate": {
+					"x": 127.05366554078688,
+					"y": 37.50631175666157
+				}
+			}
+		},
+		{
+			"id": 3,
+			"name": "wecode",
+			"kor_name": "위코드",
+			"logo_url": "http://localhost:3000/images/wecode.jpg",
+			"score": 2.5,
+			"comments_number": 138,
+			"intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
+			"tags": ["6개월", "백앤드", "오프라인", "강남", "인턴쉽 지원"],
+			"detail_infos": [
+				{
+					"title": "홈페이지",
+					"desc": "http://wecode.co.kr"
+				},
+				{
+					"title": "운영시간",
+					"desc": "평일 10AM - 7PM"
+				},
+				{
+					"title": "연락처",
+					"desc": "010-3470-4553"
+				},
+				{
+					"title": "직원수",
+					"desc": "5 명"
+				},
+				{
+					"title": "학생수 (기수별)",
+					"desc": "40~50 명"
+				}
+			],
+			"location": {
+				"address": "서울특별시 강남구 테헤란로 427, 위워크타워",
+				"cordinate": {
+					"x": 127.05366554078688,
+					"y": 37.50631175666157
+				}
+			}
+		},
+		{
+			"id": 4,
+			"name": "wecode",
+			"kor_name": "위코드",
+			"logo_url": "http://localhost:3000/images/wecode.jpg",
+			"score": 1,
+			"comments_number": 138,
+			"intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
+			"tags": ["6개월", "백앤드", "오프라인", "강남", "인턴쉽 지원"],
+			"detail_infos": [
+				{
+					"title": "홈페이지",
+					"desc": "http://wecode.co.kr"
+				},
+				{
+					"title": "운영시간",
+					"desc": "평일 10AM - 7PM"
+				},
+				{
+					"title": "연락처",
+					"desc": "010-3470-4553"
+				},
+				{
+					"title": "직원수",
+					"desc": "5 명"
+				},
+				{
+					"title": "학생수 (기수별)",
+					"desc": "40~50 명"
+				}
+			],
+			"location": {
+				"address": "서울특별시 강남구 테헤란로 427, 위워크타워",
+				"cordinate": {
+					"x": 127.05366554078688,
+					"y": 37.50631175666157
+				}
+			}
+		},
+		{
+			"id": 5,
+			"name": "wecode",
+			"kor_name": "위코드",
+			"logo_url": "http://localhost:3000/images/wecode.jpg",
+			"score": 4.5,
+			"comments_number": 138,
+			"intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
+			"tags": ["6개월", "백앤드", "오프라인", "강남", "인턴쉽 지원"],
+			"detail_infos": [
+				{
+					"title": "홈페이지",
+					"desc": "http://wecode.co.kr"
+				},
+				{
+					"title": "운영시간",
+					"desc": "평일 10AM - 7PM"
+				},
+				{
+					"title": "연락처",
+					"desc": "010-3470-4553"
+				},
+				{
+					"title": "직원수",
+					"desc": "5 명"
+				},
+				{
+					"title": "학생수 (기수별)",
+					"desc": "40~50 명"
+				}
+			],
+			"location": {
+				"address": "서울특별시 강남구 테헤란로 427, 위워크타워",
+				"cordinate": {
+					"x": 127.05366554078688,
+					"y": 37.50631175666157
+				}
+			}
+		},
+		{
+			"id": 6,
+			"name": "lewagon",
+			"kor_name": "Le Wagon 서울",
+			"logo_url": "http://localhost:3000/images/lewagon.png",
+			"score": 5,
+			"comments_number": 138,
+			"intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
+			"tags": ["6개월", "백앤드", "오프라인", "강남", "인턴쉽 지원"],
+			"detail_infos": [
+				{
+					"title": "홈페이지",
+					"desc": "http://wecode.co.kr"
+				},
+				{
+					"title": "운영시간",
+					"desc": "평일 10AM - 7PM"
+				},
+				{
+					"title": "연락처",
+					"desc": "010-3470-4553"
+				},
+				{
+					"title": "직원수",
+					"desc": "5 명"
+				},
+				{
+					"title": "학생수 (기수별)",
+					"desc": "40~50 명"
+				}
+			],
+			"location": {
+				"address": "서울특별시 강남구 테헤란로 427, 위워크타워",
+				"cordinate": {
+					"x": 127.05366554078688,
+					"y": 37.50631175666157
+				}
+			}
+		},
+		{
+			"id": 7,
+			"name": "lewagon",
+			"kor_name": "Le Wagon 서울",
+			"logo_url": "http://localhost:3000/images/lewagon.png",
+			"score": 3,
+			"comments_number": 138,
+			"intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
+			"tags": ["6개월", "백앤드", "오프라인", "강남", "인턴쉽 지원"],
+			"detail_infos": [
+				{
+					"title": "홈페이지",
+					"desc": "http://wecode.co.kr"
+				},
+				{
+					"title": "운영시간",
+					"desc": "평일 10AM - 7PM"
+				},
+				{
+					"title": "연락처",
+					"desc": "010-3470-4553"
+				},
+				{
+					"title": "직원수",
+					"desc": "5 명"
+				},
+				{
+					"title": "학생수 (기수별)",
+					"desc": "40~50 명"
+				}
+			],
+			"location": {
+				"address": "서울특별시 강남구 테헤란로 427, 위워크타워",
+				"cordinate": {
+					"x": 127.05366554078688,
+					"y": 37.50631175666157
+				}
+			}
+		},
+		{
+			"id": 8,
+			"name": "lewagon",
+			"kor_name": "Le Wagon 서울",
+			"logo_url": "http://localhost:3000/images/lewagon.png",
+			"score": 2.5,
+			"comments_number": 138,
+			"intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
+			"tags": ["6개월", "백앤드", "오프라인", "강남", "인턴쉽 지원"],
+			"detail_infos": [
+				{
+					"title": "홈페이지",
+					"desc": "http://wecode.co.kr"
+				},
+				{
+					"title": "운영시간",
+					"desc": "평일 10AM - 7PM"
+				},
+				{
+					"title": "연락처",
+					"desc": "010-3470-4553"
+				},
+				{
+					"title": "직원수",
+					"desc": "5 명"
+				},
+				{
+					"title": "학생수 (기수별)",
+					"desc": "40~50 명"
+				}
+			],
+			"location": {
+				"address": "서울특별시 강남구 테헤란로 427, 위워크타워",
+				"cordinate": {
+					"x": 127.05366554078688,
+					"y": 37.50631175666157
+				}
+			}
+		},
+		{
+			"id": 9,
+			"name": "lewagon",
+			"kor_name": "Le Wagon 서울",
+			"logo_url": "http://localhost:3000/images/lewagon.png",
+			"score": 1.5,
+			"comments_number": 138,
+			"intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
+			"tags": ["6개월", "백앤드", "오프라인", "강남", "인턴쉽 지원"],
+			"detail_infos": [
+				{
+					"title": "홈페이지",
+					"desc": "http://wecode.co.kr"
+				},
+				{
+					"title": "운영시간",
+					"desc": "평일 10AM - 7PM"
+				},
+				{
+					"title": "연락처",
+					"desc": "010-3470-4553"
+				},
+				{
+					"title": "직원수",
+					"desc": "5 명"
+				},
+				{
+					"title": "학생수 (기수별)",
+					"desc": "40~50 명"
+				}
+			],
+			"location": {
+				"address": "서울특별시 강남구 테헤란로 427, 위워크타워",
+				"cordinate": {
+					"x": 127.05366554078688,
+					"y": 37.50631175666157
+				}
+			}
+		},
+		{
+			"id": 10,
+			"name": "lewagon",
+			"kor_name": "Le Wagon 서울",
+			"logo_url": "http://localhost:3000/images/lewagon.png",
+			"score": 2,
+			"comments_number": 138,
+			"intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
+			"tags": ["6개월", "백앤드", "오프라인", "강남", "인턴쉽 지원"],
+			"detail_infos": [
+				{
+					"title": "홈페이지",
+					"desc": "http://wecode.co.kr"
+				},
+				{
+					"title": "운영시간",
+					"desc": "평일 10AM - 7PM"
+				},
+				{
+					"title": "연락처",
+					"desc": "010-3470-4553"
+				},
+				{
+					"title": "직원수",
+					"desc": "5 명"
+				},
+				{
+					"title": "학생수 (기수별)",
+					"desc": "40~50 명"
+				}
+			],
+			"location": {
+				"address": "서울특별시 강남구 테헤란로 427, 위워크타워",
+				"cordinate": {
+					"x": 127.05366554078688,
+					"y": 37.50631175666157
+				}
+			}
+		}
+	]
+}

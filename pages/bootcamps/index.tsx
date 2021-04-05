@@ -4,44 +4,45 @@ import Head from 'next/head';
 import { useDispatch } from 'react-redux';
 
 // LINK type, styles
-import { List } from '@/components/Bootcamp';
+import { List } from '@/components/Bootcamps';
+import { Filter } from '@/components/shared';
 import { fetchBootcamp } from '@/store/actions';
-import s from '@/styles/Bootcamps';
+import s from '@/components/Bootcamps/Bootcamps';
 
 export const getStaticProps: GetStaticProps = async () => {
-  const { BOOTCAMP_LIST } = process.env;
+	const { BOOTCAMP_LIST } = process.env;
 
-  return {
-    props: {
-      BOOTCAMP_LIST,
-    },
-    revalidate: 1,
-  };
+	return {
+		props: {
+			BOOTCAMP_LIST,
+		},
+		revalidate: 1,
+	};
 };
 
 const Bootcamps = ({
-  BOOTCAMP_LIST,
+	BOOTCAMP_LIST,
 }: InferGetStaticPropsType<typeof getStaticProps>) => {
-  const dispatch = useDispatch();
+	const dispatch = useDispatch();
 
-  useEffect(() => {
-    dispatch(fetchBootcamp(BOOTCAMP_LIST));
-  }, []);
+	useEffect(() => {
+		dispatch(fetchBootcamp(BOOTCAMP_LIST));
+	}, []);
 
-  return (
-    <>
-      <Head>
-        <title>BOOTJUNGLE | Bootcamps</title>
-      </Head>
-      <s.Bootcamps>
-        <div>
-          <h1>부트캠프 리스트</h1>
-
-          <List />
-        </div>
-      </s.Bootcamps>
-    </>
-  );
+	return (
+		<>
+			<Head>
+				<title>BOOTJUNGLE | Bootcamps</title>
+			</Head>
+			<s.Bootcamps>
+				<Filter type='bootcamp' />
+				<div>
+					<h1>부트캠프 리스트</h1>
+					<List />
+				</div>
+			</s.Bootcamps>
+		</>
+	);
 };
 
 export default Bootcamps;

@@ -1,0 +1,56 @@
+{
+	"filters": [
+		{
+			"id": 1,
+			"title": "리뷰 평점별",
+			"items": ["전체", "5점", "4점", "3점", "2점", "1점"]
+		}
+	],
+	"comments": [
+		{
+			"author": "hello",
+			"contents": "hellowworld",
+			"score": 4.5
+		},
+		{
+			"author": "hello",
+			"contents": "hellowworld",
+			"score": 4.5
+		},
+		{
+			"author": "hello",
+			"contents": "hellowworld",
+			"score": 4.5
+		},
+		{
+			"author": "hello",
+			"contents": "hellowworld",
+			"score": 4.5
+		},
+		{
+			"author": "hello",
+			"contents": "hellowworld",
+			"score": 4.5
+		},
+		{
+			"author": "hello",
+			"contents": "hellowworld",
+			"score": 4.5
+		},
+		{
+			"author": "hello",
+			"contents": "hellowworld",
+			"score": 4.5
+		},
+		{
+			"author": "hello",
+			"contents": "hellowworld",
+			"score": 4.5
+		},
+		{
+			"author": "hello",
+			"contents": "hellowworld",
+			"score": 4.5
+		}
+	]
+}

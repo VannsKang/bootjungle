@@ -1,21 +1,21 @@
 import axios from 'axios';
-import { CourseType } from '@/template';
+import { CourseType } from '@/typings';
 
 const getCourseItems = async (api: string): Promise<CourseType.CourseData> => {
-  try {
-    const res = await axios.get<CourseType.CourseData>(api);
+	try {
+		const res = await axios.get<CourseType.CourseData>(api);
 
-    // validation
-    const validation = (await res) && res.status === 200;
-    if (!validation) throw new Error('Load Course Items Failed');
+		// validation
+		const validation = (await res) && res.status === 200;
+		if (!validation) throw new Error('Load Course Items Failed');
 
-    const { data } = await res;
-    return data;
-  } catch (error) {
-    throw error;
-  }
+		const { data } = await res;
+		return data;
+	} catch (error) {
+		throw error;
+	}
 };
 
 export default {
-  getCourseItems,
+	getCourseItems,
 };

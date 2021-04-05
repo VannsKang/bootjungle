@@ -1,41 +1,52 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { bootcampActions } from '@/store/actions';
-import { BootcampType } from '@/template';
+import { BootcampType } from '@/typings';
 
 // SECTION state
 const initialState: BootcampType.BootcampState = {
-  bootcamps: [],
-  isLoading: false,
-  error: null,
+	bootcamps: [],
+	originBootcamps: [],
+	filters: [],
+	isLoading: false,
+	error: null,
 };
 
 // SECTION reducers
 const reducers = {
-  getBootcampStart: bootcampActions.startLoading,
-  getBootcampSuccesss(
-    state: BootcampType.BootcampState,
-    action: PayloadAction<BootcampType.Bootcamp[]>
-  ) {
-    console.log(action);
-    state.bootcamps = action.payload;
-    state.isLoading = false;
-    state.error = null;
-  },
-  getBootcampFailed: bootcampActions.loadingFailed,
+	getBootcampStart: bootcampActions.startLoading,
+	getBootcampSucceed: bootcampActions.loadingSuceed,
+	getBootcampFailed: bootcampActions.loadingFailed,
+
+	getBootcamp(
+		state: BootcampType.BootcampState,
+		action: PayloadAction<BootcampType.BootcampData>
+	) {
+		state.bootcamps = state.originBootcamps = action.payload.bootcamps;
+		state.filters = action.payload.filters;
+	},
+
+	filterBootcamp(
+		state: BootcampType.BootcampState,
+		action: PayloadAction<BootcampType.FilteredBootcampData>
+	) {
+		state.bootcamps = action.payload.bootcamps;
+	},
 };
 
 // SECTION slices
 const bootcampSlice = createSlice({
-  name: 'bootcamp',
-  initialState,
-  reducers,
-  extraReducers: (builder) => {},
+	name: 'bootcamp',
+	initialState,
+	reducers,
+	extraReducers: (builder) => {},
 });
 
 export const {
-  getBootcampStart,
-  getBootcampFailed,
-  getBootcampSuccesss,
+	getBootcampStart,
+	getBootcampFailed,
+	getBootcamp,
+	filterBootcamp,
+	getBootcampSucceed,
 } = bootcampSlice.actions;
 
 export default bootcampSlice.reducer;

@@ -7,7 +7,6 @@ import { BootcampType } from '@/typings';
 import Rating from '@material-ui/lab/Rating';
 
 const Headers: FC<BootcampType.BootcampProps> = ({ bootcamp }) => {
-	console.log(bootcamp, 'helloworld');
 	return (
 		<s.Headers>
 			<section>

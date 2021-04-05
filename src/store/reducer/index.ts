@@ -2,26 +2,29 @@ import { combineReducers } from '@reduxjs/toolkit';
 import rankingReducer from '@/store/reducer/rankingSlice';
 import bootcampReducer from '@/store/reducer/bootcampSlice';
 import courseReducer from '@/store/reducer/courseSlice';
+
 export {
-  getRankingFailed,
-  getRankingStart,
-  getRankingSuccesss,
+	getRankingFailed,
+	getRankingStart,
+	getRankingSuccesss,
 } from '@/store/reducer/rankingSlice';
 export {
-  getBootcampFailed,
-  getBootcampStart,
-  getBootcampSuccesss,
+	getBootcampFailed,
+	getBootcampStart,
+	getBootcamp,
+	filterBootcamp,
+	getBootcampSucceed,
 } from '@/store/reducer/bootcampSlice';
 export {
-  getCourseFailed,
-  getCourseStart,
-  getCourseSuccesss,
+	getCourseFailed,
+	getCourseStart,
+	getCourseSuccesss,
 } from '@/store/reducer/courseSlice';
 
 const rootReducer = combineReducers({
-  rankingReducer,
-  bootcampReducer,
-  courseReducer,
+	rankingReducer,
+	bootcampReducer,
+	courseReducer,
 });
 
 export type RootState = ReturnType<typeof rootReducer>;

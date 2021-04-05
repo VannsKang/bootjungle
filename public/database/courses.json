@@ -1,152 +1,140 @@
 {
-  "filters": [
-    {
-      "id": 1,
-      "title": "리뷰 평점별",
-      "items": ["전체", "5점", "4점", "3점", "2점", "1점"]
-    },
-    {
-      "id": 2,
-      "title": "태그별",
-      "items": [
-        "전체",
-        "프론트앤드",
-        "백앤드",
-        "온라인",
-        "오프라인",
-        "3개월",
-        "6개월"
-      ]
-    },
-    {
-      "id": 3,
-      "title": "비용별",
-      "items": ["전체", "900만원 이상", "500만원", "300만원", "100만원", "무료"]
-    }
-  ],
-  "courses": [
-    {
-      "id": 1,
-      "name": "codestates",
-      "korName": "코드스테이츠",
-      "courseKorName": "소프트웨어 엔지니어링",
-      "courseEngName": "Software Engineering",
-      "logoUrl": "http://localhost:3000/images/codestates.png",
-      "score": 4.5,
-      "price": 8900000,
-      "intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
-      "tags": ["3개월", "프론트앤드", "온라인", "890만원"]
-    },
-    {
-      "id": 2,
-      "name": "codestates",
-      "korName": "코드스테이츠",
-      "courseKorName": "소프트웨어 엔지니어링",
-      "courseEngName": "Software Engineering",
-      "logoUrl": "http://localhost:3000/images/codestates.png",
-      "score": 3.5,
-      "intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
-      "tags": ["3개월", "프론트앤드", "온라인", "890만원"]
-    },
-    {
-      "id": 3,
-      "name": "codestates",
-      "korName": "코드스테이츠",
-      "courseKorName": "소프트웨어 엔지니어링",
-      "courseEngName": "Software Engineering",
-      "logoUrl": "http://localhost:3000/images/codestates.png",
-      "score": 5,
-      "intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
-      "tags": ["3개월", "프론트앤드", "온라인", "890만원"]
-    },
-    {
-      "id": 4,
-      "name": "codestates",
-      "korName": "코드스테이츠",
-      "courseKorName": "소프트웨어 엔지니어링",
-      "courseEngName": "Software Engineering",
-      "logoUrl": "http://localhost:3000/images/codestates.png",
-      "score": 2.5,
-      "intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
-      "tags": ["3개월", "프론트앤드", "온라인", "890만원"]
-    },
-    {
-      "id": 5,
-      "name": "codestates",
-      "korName": "코드스테이츠",
-      "courseKorName": "소프트웨어 엔지니어링",
-      "courseEngName": "Software Engineering",
-      "logoUrl": "http://localhost:3000/images/codestates.png",
-      "score": 4.5,
-      "intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
-      "tags": ["3개월", "프론트앤드", "온라인", "890만원"]
-    },
-    {
-      "id": 6,
-      "name": "codestates",
-      "korName": "코드스테이츠",
-      "courseKorName": "소프트웨어 엔지니어링",
-      "courseEngName": "Software Engineering",
-      "logoUrl": "http://localhost:3000/images/codestates.png",
-      "score": 4.5,
-      "intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
-      "tags": ["3개월", "프론트앤드", "온라인", "890만원"]
-    },
-    {
-      "id": 7,
-      "name": "codestates",
-      "korName": "코드스테이츠",
-      "courseKorName": "소프트웨어 엔지니어링",
-      "courseEngName": "Software Engineering",
-      "logoUrl": "http://localhost:3000/images/codestates.png",
-      "score": 4.5,
-      "intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
-      "tags": ["3개월", "프론트앤드", "온라인", "890만원"]
-    },
-    {
-      "id": 8,
-      "name": "codestates",
-      "korName": "코드스테이츠",
-      "courseKorName": "소프트웨어 엔지니어링",
-      "courseEngName": "Software Engineering",
-      "logoUrl": "http://localhost:3000/images/codestates.png",
-      "score": 4.5,
-      "intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
-      "tags": ["3개월", "프론트앤드", "온라인", "890만원"]
-    },
-    {
-      "id": 9,
-      "name": "codestates",
-      "korName": "코드스테이츠",
-      "courseKorName": "소프트웨어 엔지니어링",
-      "courseEngName": "Software Engineering",
-      "logoUrl": "http://localhost:3000/images/codestates.png",
-      "score": 4.5,
-      "intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
-      "tags": ["3개월", "프론트앤드", "온라인", "890만원"]
-    },
-    {
-      "id": 10,
-      "name": "codestates",
-      "korName": "코드스테이츠",
-      "courseKorName": "소프트웨어 엔지니어링",
-      "courseEngName": "Software Engineering",
-      "logoUrl": "http://localhost:3000/images/codestates.png",
-      "score": 4.5,
-      "intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
-      "tags": ["3개월", "프론트앤드", "온라인", "890만원"]
-    },
-    {
-      "id": 1,
-      "BootcampName": "codestates",
-      "BootcampNameKor": "코드스테이츠",
-      "courseName": "Software Engineering",
-      "courseNameKor": "소프트웨어 엔지니어링",
-      "logoUrl": "http://localhost:3000/images/codestates.png",
-      "score": 4.5,
-      "price": 8900000,
-      "intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
-      "tags": ["3개월", "프론트앤드", "온라인", "890만원"]
-    }
-  ]
+	"filters": [
+		{
+			"id": 1,
+			"title": "리뷰 평점별",
+			"items": ["전체", "5점", "4점", "3점", "2점", "1점"]
+		},
+		{
+			"id": 2,
+			"title": "태그별",
+			"items": [
+				"전체",
+				"프론트앤드",
+				"백앤드",
+				"온라인",
+				"오프라인",
+				"3개월",
+				"6개월"
+			]
+		},
+		{
+			"id": 3,
+			"title": "비용별",
+			"items": ["전체", "900만원 이상", "500만원", "300만원", "100만원", "무료"]
+		}
+	],
+	"courses": [
+		{
+			"id": 1,
+			"name": "codestates",
+			"korName": "코드스테이츠",
+			"courseKorName": "소프트웨어 엔지니어링",
+			"courseEngName": "Software Engineering",
+			"logoUrl": "http://localhost:3000/images/codestates.png",
+			"score": 4.5,
+			"price": 8900000,
+			"intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
+			"tags": ["3개월", "프론트앤드", "온라인", "890만원"]
+		},
+		{
+			"id": 2,
+			"name": "codestates",
+			"korName": "코드스테이츠",
+			"courseKorName": "소프트웨어 엔지니어링",
+			"courseEngName": "Software Engineering",
+			"logoUrl": "http://localhost:3000/images/codestates.png",
+			"score": 3.5,
+			"intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
+			"tags": ["3개월", "프론트앤드", "온라인", "890만원"]
+		},
+		{
+			"id": 3,
+			"name": "wecode",
+			"korName": "위코드",
+			"courseKorName": "프론트앤드 코스",
+			"courseEngName": "Frontend Course",
+			"logoUrl": "http://localhost:3000/images/wecode.jpg",
+			"score": 5,
+			"intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
+			"tags": ["3개월", "프론트앤드", "온라인", "890만원"]
+		},
+		{
+			"id": 4,
+			"name": "wecode",
+			"korName": "위코드",
+			"courseKorName": "백앤드 코스",
+			"courseEngName": "Backend Course",
+			"logoUrl": "http://localhost:3000/images/wecode.jpg",
+			"score": 2.5,
+			"intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
+			"tags": ["3개월", "프론트앤드", "온라인", "890만원"]
+		},
+		{
+			"id": 5,
+			"name": "codestates",
+			"korName": "코드스테이츠",
+			"courseKorName": "소프트웨어 엔지니어링",
+			"courseEngName": "Software Engineering",
+			"logoUrl": "http://localhost:3000/images/codestates.png",
+			"score": 4.5,
+			"intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
+			"tags": ["3개월", "프론트앤드", "온라인", "890만원"]
+		},
+		{
+			"id": 6,
+			"name": "codestates",
+			"korName": "코드스테이츠",
+			"courseKorName": "소프트웨어 엔지니어링",
+			"courseEngName": "Software Engineering",
+			"logoUrl": "http://localhost:3000/images/codestates.png",
+			"score": 4.5,
+			"intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
+			"tags": ["3개월", "프론트앤드", "온라인", "890만원"]
+		},
+		{
+			"id": 7,
+			"name": "lewagon",
+			"korName": "Le Wagon",
+			"courseKorName": "소프트웨어 엔지니어링",
+			"courseEngName": "Software Engineering",
+			"logoUrl": "http://localhost:3000/images/lewagon.png",
+			"score": 4.5,
+			"intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
+			"tags": ["3개월", "프론트앤드", "온라인", "890만원"]
+		},
+		{
+			"id": 8,
+			"name": "lewagon",
+			"korName": "Le Wagon",
+			"courseKorName": "소프트웨어 엔지니어링",
+			"courseEngName": "Software Engineering",
+			"logoUrl": "http://localhost:3000/images/lewagon.png",
+			"score": 4.5,
+			"intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
+			"tags": ["3개월", "프론트앤드", "온라인", "890만원"]
+		},
+		{
+			"id": 9,
+			"name": "lewagon",
+			"korName": "Le Wagon",
+			"courseKorName": "소프트웨어 엔지니어링",
+			"courseEngName": "Software Engineering",
+			"logoUrl": "http://localhost:3000/images/lewagon.png",
+			"score": 4.5,
+			"intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
+			"tags": ["3개월", "프론트앤드", "온라인", "890만원"]
+		},
+		{
+			"id": 10,
+			"name": "lewagon",
+			"korName": "Le Wagon",
+			"courseKorName": "소프트웨어 엔지니어링",
+			"courseEngName": "Software Engineering",
+			"logoUrl": "http://localhost:3000/images/lewagon.png",
+			"score": 4.5,
+			"intro": "WeCode #코딩부트캠프 #코딩교육 #개발자되기 당신도 개발자가 될 수 있습니다. 프로그래밍 경험이 없어도 괜찮습니다. WeCode의 부트캠프를 통해 개발자로서 커리어를 시작하세요.",
+			"tags": ["3개월", "프론트앤드", "온라인", "890만원"]
+		}
+	]
 }
